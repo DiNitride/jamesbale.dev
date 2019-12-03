@@ -16,3 +16,11 @@ collections:
       - { name: linkString, label: Link Text}
       - { name: link, label: Link}
       - { name: description, label: Description}
+  - label: Pages
+    name: pages
+    files:
+      - label: About
+        name: about
+        file: pages/about.md
+        fields:
+          - { label: About Text, name: aboutText, widget: string }
