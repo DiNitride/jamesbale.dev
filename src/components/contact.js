@@ -11,7 +11,7 @@ function ContactMethod(props) {
 export default () => (
     <div className={contactStyles.container}>
         <a className="anchor" href="https://www.jamesbale.dev/#contact" id="contact"></a>
-        <h1 className={contactStyles.title}>Wanna discuss developing an idea you have?</h1>
+        <h1 className={contactStyles.title}>Want to discuss developing an idea you have?</h1>
         <h2 className={contactStyles.splash}>Whether you have an opportunity that I may be interested in, an idea you want to see turned to reality, or simply a website building, please get in touch, I'd love to hear from you!</h2>
         <h1 className={contactStyles.how}>How?</h1>
         <ContactMethod icon={faEnvelope} link="mailto:j.ptb.t.ca@gmail.com" text="Send me an email!" />
