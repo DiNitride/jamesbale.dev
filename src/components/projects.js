@@ -27,8 +27,9 @@ export default () => (
   render={
     data => (
       <div className={projectStyles.container}>
-        <a id="portfolio"></a>
+        <a className="anchor" href="https://www.jamesbale.dev/#portfolio" id="portfolio">Portfolio</a>
         <h1 className={projectStyles.title}>Portfolio</h1>
+        {console.log(data.allMarkdownRemark.edges)}
         {data.allMarkdownRemark.edges.sort((a, b) => (a.node.frontmatter.weight - b.node.frontmatter.weight) ).map(document => (
           <div className={projectStyles.project}>
             <h3 className={projectStyles.projectName}>{document.node.frontmatter.title}</h3>

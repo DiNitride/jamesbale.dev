@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import Img from "gatsby-image"
 import HeaderStyles from "./header.module.css"
 
 export default () => (
@@ -25,7 +24,6 @@ export default () => (
       </p>
       <a href="#portfolio" className={HeaderStyles.navButton}>PORTFOLIO</a>
       <a href="#contact" className={HeaderStyles.navButton}>CONTACT</a> 
-      <a href="" className={HeaderStyles.navButton}>CV</a>  
     </div>
     
   )}
