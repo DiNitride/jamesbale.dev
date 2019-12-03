@@ -38,7 +38,7 @@ export default () => (
             <p className={projectStyles.technologies}>
               Technologies --- {document.node.frontmatter.technologies.split(',').join("  -  ")}
             </p>
-            <a target="_blank" href={document.node.frontmatter.link}><button className={projectStyles.githubButton}>{document.node.frontmatter.linkString}</button></a>
+            <a target="_blank" rel="noopener noreferrer" href={document.node.frontmatter.link}><button className={projectStyles.githubButton}>{document.node.frontmatter.linkString}</button></a>
           </div>
         ))}
         <h1>Like what you see? <a href="#contact" className={projectStyles.contactButton}>Contact me</a> below to discuss the development of your idea</h1>
