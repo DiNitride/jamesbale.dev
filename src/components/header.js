@@ -15,13 +15,6 @@ export default () => (
           }
         }
       }
-      strapiHomepage {
-        about
-        Location
-        instagram
-        twitter
-        email
-      }
     }
   `}
   render={data => (
