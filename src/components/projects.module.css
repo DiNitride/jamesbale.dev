@@ -16,7 +16,7 @@
 }
 
 .githubButton {
-    transition: 1s;
+    transition: 0.5s;
     padding: 15px 32px;
     text-align: center;
     background-color: #00000000;
