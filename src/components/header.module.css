@@ -41,3 +41,22 @@
     margin-bottom: 20px;
 
 }
+
+@media only screen and (max-width: 480px) {
+
+    .header {
+        height: 100vh;
+        width: 75vw;
+        margin: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .splashText {
+        font-size: 30pt;
+        font-weight: 800;
+        padding-top: 20vh;
+        
+    }
+    
+}
