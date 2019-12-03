@@ -28,6 +28,13 @@ module.exports = {
       options: {
         trackingId: "UA-153854325-1",
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        googleAdClientId: "ca-pub-1353600250187126",
+        head: true // Optional
+      }
     }
   ]
 }

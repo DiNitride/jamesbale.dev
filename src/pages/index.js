@@ -12,7 +12,6 @@ const IndexPage = ({ data }) => (
           <meta charSet="utf-8" />
           <title>James Bale</title>
           <link rel="canonical" href="https://www.jamesbale.dev" />
-          <script data-ad-client="ca-pub-1353600250187126" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </Helmet>
         <Header />
         <Projects />
