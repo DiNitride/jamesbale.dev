@@ -12,8 +12,20 @@ let catgories = {
 export default () => (
   <StaticQuery query={graphql`
     query MyQuery {
-      sitePlugin {
-        id
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              description
+              link
+              linkString
+              technologies
+              title
+              type
+              weight
+            }
+          }
+        }
       }
     }
   `
@@ -22,18 +34,18 @@ export default () => (
     data => (
       <div className={projectStyles.container}>
         <a id="portfolio"></a>
-        {/* <h1 className={projectStyles.title}>Portfolio</h1>
-        {data.allStrapiProject.edges.sort((a, b) => (a.node.weight - b.node.weight) ).map(document => (
+        <h1 className={projectStyles.title}>Portfolio</h1>
+        {data.allMarkdownRemark.edges.sort((a, b) => (a.node.frontmatter.weight - b.node.frontmatter.weight) ).map(document => (
           <div className={projectStyles.project}>
-            <h3 className={projectStyles.projectName}>{document.node.name}</h3>
-            <p className={projectStyles.category}>{catgories[document.node.Category]}</p>
-            <p className={projectStyles.projectDescription}>{document.node.description}</p>
+            <h3 className={projectStyles.projectName}>{document.node.frontmatter.title}</h3>
+            <p className={projectStyles.category}>{catgories[document.node.frontmatter.type]}</p>
+            <p className={projectStyles.projectDescription}>{document.node.frontmatter.description}</p>
             <p className={projectStyles.technologies}>
-              Technologies --- {document.node.Technologies.split(',').join("  -  ")}
+              Technologies --- {document.node.frontmatter.technologies.split(',').join("  -  ")}
             </p>
-            <a href={document.node.Link}><button className={projectStyles.githubButton}>{document.node.LinkString}</button></a>
+            <a target="_blank" href={document.node.frontmatter.link}><button className={projectStyles.githubButton}>{document.node.frontmatter.linkString}</button></a>
           </div>
-        ))} */}
+        ))}
         <h1>Like what you see? <a href="#contact" className={projectStyles.contactButton}>Contact me</a> below to discuss the development of your idea</h1>
       </div>
     )}
