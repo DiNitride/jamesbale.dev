@@ -22,6 +22,19 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-netlify-cms',
     'gatsby-transformer-remark',
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: "UA-153854325-1",
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        googleAdClientId: "ca-pub-1353600250187126",
+        head: true // Optional
+      }
+    }
   ]
 }
