@@ -1,46 +1,47 @@
 .container {
-    background-color: #C3073F;
-    min-height: 100vh;
-    padding: 0px 15% 50px 15%;
+  background-color: #C3073F;
+  min-height: 100vh;
+  padding: 0px 15% 50px 15%;
 }
 
 .title {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .project {
-    border: 2px solid #1A1A1D;
-    padding: 10px;
-    margin-bottom: 30px;
-    transition: 1s;
+  border: 2px solid #1A1A1D;
+  padding: 10px;
+  margin-bottom: 30px;
+  transition: 1s;
 }
 
-.githubButton {
-    transition: 0.5s;
-    padding: 15px 32px;
-    text-align: center;
-    background-color: #00000000;
-    border: 2px solid #1A1A1D;
-    font-family: monospace;
+.projectButton {
+  transition: 0.5s;
+  padding: 15px 32px;
+  text-align: center;
+  background-color: #00000000;
+  border: 2px solid #1A1A1D;
+  font-family: monospace;
+  cursor: pointer;
 }
 
 .technologies {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .githubButton:hover {
-    padding: 15px 50px;
+  padding: 15px 50px;
 }
 
 .projectName {
-    margin: 4px 0px;
+  margin: 4px 0px;
 }
 
 .category {
-    font-style: italic;
+  font-style: italic;
 }
 
 .contactButton {
-    color: #1A1A1D;
-    text-decoration: none;
+  color: #1A1A1D;
+  text-decoration: none;
 }
