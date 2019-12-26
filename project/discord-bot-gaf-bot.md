@@ -1,5 +1,5 @@
 ---
-title: Discord Bot (GAF Bot)
+title: Discord Bot
 type: Personal Project
 weight: 6
 technologies: 'Python,Discord API'
