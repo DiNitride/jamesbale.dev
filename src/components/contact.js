@@ -14,7 +14,7 @@ export default () => (
         <h1 className={contactStyles.title}>Want to discuss developing an idea you have?</h1>
         <h2 className={contactStyles.splash}>Whether you have an opportunity that I may be interested in, an idea you want to see turned to reality, or simply want a website building, please get in touch, I'd love to hear from you!</h2>
         <h1 className={contactStyles.how}>How?</h1>
-        <ContactMethod icon={faEnvelope} link="mailto:j.ptb.t.ca@gmail.com" text="Send me an email!" />
+        <ContactMethod icon={faEnvelope} link="mailto:j.ptb.t.ca@gmail.com" text="Send me an email" />
         <ContactMethod icon={faDiscord} link="http://discord.gg" text="DiNitride#7899" />
         <ContactMethod icon={faGithub} link="https://www.github.com/DiNitride/" text="Github" /> 
         <ContactMethod icon={faInstagram} link="https://www.instagram.com/jamesisnotamused/" text="@jamesisnotamused" />

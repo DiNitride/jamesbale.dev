@@ -1,5 +1,5 @@
 ---
-title: A Level Coursework (Instant Messenger)
+title: Instant Messenger (A Level Coursework)
 type: School Project
 weight: 3
 technologies: 'Python,Java,Websockets,Java Swing'
