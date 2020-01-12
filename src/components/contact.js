@@ -17,7 +17,6 @@ export default () => (
         <ContactMethod icon={faEnvelope} link="mailto:j.ptb.t.ca@gmail.com" text="Send me an email!" />
         <ContactMethod icon={faDiscord} link="http://discord.gg" text="DiNitride#7899" />
         <ContactMethod icon={faGithub} link="https://www.github.com/DiNitride/" text="Github" /> 
-        <ContactMethod icon={faTwitter} link="https://www.twitter.com/di_nitride" text="@di_nitride" />
         <ContactMethod icon={faInstagram} link="https://www.instagram.com/jamesisnotamused/" text="@jamesisnotamused" />
 
     </div>
