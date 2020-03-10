@@ -5,7 +5,8 @@ media_folder: static/assets
 public_folder: assets
 collections:
   - name: project
-    label: Project
+    label: Projects
+    label_singular: Project
     folder: project
     create: true
     fields:
@@ -16,11 +17,12 @@ collections:
       - { name: linkString, label: Link Text}
       - { name: link, label: Link}
       - { name: description, label: Description}
-  - label: Pages
-    name: pages
-    files:
-      - label: About
-        name: about
-        file: pages/about.md
-        fields:
-          - { label: About Text, name: aboutText, widget: string }
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: post
+    create: true
+    fields:
+      - { name: title, label: Name }
+      - { name: date, label: Date, widget: datetime, timeFormat: false }
+      - { name: content, label: Content, widget: markdown}
