@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
 body, html {
     height: 100%;
     margin: 0px;
-    font-family: monospace;
+    font-family: 'Ubuntu', monospace;
     color: white;
     background-color: #1A1A1D;
     scroll-behavior: smooth;
