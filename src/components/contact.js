@@ -1,7 +1,7 @@
 import React from "react"
 import contactStyles from "./contact.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faDiscord, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faTwitter, faDiscord, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 function ContactMethod(props) {
