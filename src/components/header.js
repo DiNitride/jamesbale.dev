@@ -25,7 +25,7 @@ export default () => (
       <div className={HeaderStyles.linkContainer}>
         <a href="#portfolio" className={HeaderStyles.navButton}>PORTFOLIO</a>
         <a href="#contact" className={HeaderStyles.navButton}>CONTACT</a>
-        <a href="James_Bale_CV.pdf" className={HeaderStyles.navButton}>VIEW CV</a>
+        <a href="CV.pdf" className={HeaderStyles.navButton}>VIEW CV</a>
       </div>
       </div>
     
