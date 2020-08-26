@@ -3,7 +3,7 @@ title: The Drum Academy
 type: Website Design
 weight: 2
 technologies: 'UI, UX, Graphics'
-linkString: Website
+linkString: View Website
 link: 'https://thedrumacademy.com/'
 description: >-
   Redesigned and modernised the academy's website design and looks. The client
